@@ -14,6 +14,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -68,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="blog,">
+  <meta name="keywords" content="网页学习,">
 
 
 
@@ -80,11 +87,11 @@
 
 
 <meta name="description" content="简单的博客建立流程（个人向）头痛，作为一个学计算机的怎么能连个博客都没有。。 这篇文档主要用于自己进行回顾复习如何从0开始建立的博客 第一步(准备阶段)：1.你需要有一个邮箱，例如xxx@gmail.com，最好不要用qq邮箱； 2.注册Github帐号； 3.完成以上两个步骤就可以在主机上准备环境了。 第二步(适配环境)：1.准备 node 和 git 环境：  安装NodeJS   安装Git">
-<meta name="keywords" content="blog">
+<meta name="keywords" content="网页学习">
 <meta property="og:type" content="article">
 <meta property="og:title" content="博客建立">
 <meta property="og:url" content="https://christophe.github.io/2019/06/27/简单的博客建立流程（个人向）/index.html">
-<meta property="og:site_name" content="Chris&#39;s Blog">
+<meta property="og:site_name" content="克里斯的熊窝">
 <meta property="og:description" content="简单的博客建立流程（个人向）头痛，作为一个学计算机的怎么能连个博客都没有。。 这篇文档主要用于自己进行回顾复习如何从0开始建立的博客 第一步(准备阶段)：1.你需要有一个邮箱，例如xxx@gmail.com，最好不要用qq邮箱； 2.注册Github帐号； 3.完成以上两个步骤就可以在主机上准备环境了。 第二步(适配环境)：1.准备 node 和 git 环境：  安装NodeJS   安装Git">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://i.loli.net/2019/06/27/5d148a6f9037a32313.png">
@@ -94,7 +101,7 @@
 <meta property="og:image" content="https://i.loli.net/2019/06/27/5d148ae61e98b76717.png">
 <meta property="og:image" content="https://i.loli.net/2019/06/27/5d148afeb944e51847.png">
 <meta property="og:image" content="https://i.loli.net/2019/06/27/5d148b227624735964.png">
-<meta property="og:updated_time" content="2019-06-27T10:48:51.938Z">
+<meta property="og:updated_time" content="2020-03-18T12:39:43.959Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="博客建立">
 <meta name="twitter:description" content="简单的博客建立流程（个人向）头痛，作为一个学计算机的怎么能连个博客都没有。。 这篇文档主要用于自己进行回顾复习如何从0开始建立的博客 第一步(准备阶段)：1.你需要有一个邮箱，例如xxx@gmail.com，最好不要用qq邮箱； 2.注册Github帐号； 3.完成以上两个步骤就可以在主机上准备环境了。 第二步(适配环境)：1.准备 node 和 git 环境：  安装NodeJS   安装Git">
@@ -134,7 +141,7 @@
 
 
 
-  <title>博客建立 | Chris's Blog</title>
+  <title>博客建立 | 克里斯的熊窝</title>
   
 
 
@@ -164,12 +171,12 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Chris's Blog</span>
+        <span class="site-title">克里斯的熊窝</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">welcome to my tiny place! Aww~</p>
+        <p class="site-subtitle">(●′ω`●) 谢谢你这么好看还来参观噢！</p>
       
   </div>
 
@@ -280,7 +287,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Chris's Blog">
+      <meta itemprop="name" content="克里斯的熊窝">
     </span>
 
     
@@ -323,19 +330,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/网络/" itemprop="url" rel="index">
-                    <span itemprop="name">网络</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/网络/笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">笔记</span>
+                  <a href="/categories/博客记录/" itemprop="url" rel="index">
+                    <span itemprop="name">博客记录</span>
                   </a>
                 </span>
 
@@ -346,6 +342,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/06/27/简单的博客建立流程（个人向）/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/06/27/简单的博客建立流程（个人向）/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -458,6 +464,35 @@
     
 
     
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>请简单粗暴的爱我</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="Chris Bear 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Chris Bear 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
 
     
 
@@ -465,7 +500,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/blog/" rel="tag"># blog</a>
+            <a href="/tags/网页学习/" rel="tag"># 网页学习</a>
           
         </div>
       
@@ -499,6 +534,9 @@
 
           
 
+  
+    <div class="comments" id="comments">
+    </div>
   
 
 
@@ -539,7 +577,7 @@
               <img class="site-author-image" itemprop="image" src="/uploads/avatar.png" alt="Chris Bear">
             
               <p class="site-author-name" itemprop="name">Chris Bear</p>
-              <p class="site-description motion-element" itemprop="description">Overwatch!!</p>
+              <p class="site-description motion-element" itemprop="description">Don't be afraid of growing up!!</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -560,7 +598,7 @@
               
               <div class="site-state-item site-state-categories">
                 
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">分类</span>
                 
               </div>
@@ -581,6 +619,22 @@
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://weibo.com/u/5325392738?topnav=1&wvr=6&topsug=1&is_all=1" target="_blank" title="Weibo">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>Weibo</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://space.bilibili.com/4628783" target="_blank" title="Bilibili">
+                      
+                        <i class="fa fa-fw fa-instagram"></i>Bilibili</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -624,7 +678,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -792,6 +846,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'G8Srtw9oQ2n4ldNhiqVjEOvh-gzGzoHsz',
+        appKey: 'U06qnhnR3pozsTUjPpg1agef',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 

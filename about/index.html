@@ -14,6 +14,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -82,14 +89,14 @@
 <meta name="description" content="title: 关于我type: “about”date: 2019-06-27 17:30:28comments: false 克里斯丁在此，天惹，看看这是谁来了！">
 <meta name="keywords" content="chrisbear blog">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Chris&#39;s Blog">
+<meta property="og:title" content="克里斯的熊窝">
 <meta property="og:url" content="https://christophe.github.io/about/index.html">
-<meta property="og:site_name" content="Chris&#39;s Blog">
+<meta property="og:site_name" content="克里斯的熊窝">
 <meta property="og:description" content="title: 关于我type: “about”date: 2019-06-27 17:30:28comments: false 克里斯丁在此，天惹，看看这是谁来了！">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2019-06-27T10:30:02.817Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chris&#39;s Blog">
+<meta name="twitter:title" content="克里斯的熊窝">
 <meta name="twitter:description" content="title: 关于我type: “about”date: 2019-06-27 17:30:28comments: false 克里斯丁在此，天惹，看看这是谁来了！">
 
 
@@ -126,7 +133,7 @@
 
 
 
-  <title> | Chris's Blog</title>
+  <title> | 克里斯的熊窝</title>
   
 
 
@@ -156,12 +163,12 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Chris's Blog</span>
+        <span class="site-title">克里斯的熊窝</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">welcome to my tiny place! Aww~</p>
+        <p class="site-subtitle">(●′ω`●) 谢谢你这么好看还来参观噢！</p>
       
   </div>
 
@@ -290,6 +297,9 @@
           
 
   
+    <div class="comments" id="comments">
+    </div>
+  
 
 
 
@@ -320,7 +330,7 @@
               <img class="site-author-image" itemprop="image" src="/uploads/avatar.png" alt="Chris Bear">
             
               <p class="site-author-name" itemprop="name">Chris Bear</p>
-              <p class="site-description motion-element" itemprop="description">Overwatch!!</p>
+              <p class="site-description motion-element" itemprop="description">Don't be afraid of growing up!!</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -341,7 +351,7 @@
               
               <div class="site-state-item site-state-categories">
                 
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">分类</span>
                 
               </div>
@@ -362,6 +372,22 @@
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://weibo.com/u/5325392738?topnav=1&wvr=6&topsug=1&is_all=1" target="_blank" title="Weibo">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>Weibo</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://space.bilibili.com/4628783" target="_blank" title="Bilibili">
+                      
+                        <i class="fa fa-fw fa-instagram"></i>Bilibili</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -389,7 +415,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -557,6 +583,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'G8Srtw9oQ2n4ldNhiqVjEOvh-gzGzoHsz',
+        appKey: 'U06qnhnR3pozsTUjPpg1agef',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
